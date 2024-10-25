@@ -222,7 +222,7 @@ def deletar(id):
 
 <h3>Passo a Passo para Criar o Projeto</h3>
 
-<ol>
+<ul>
     <li>
         <strong>Acessar o Google Cloud Shell</strong>:
 
@@ -296,7 +296,7 @@ def deletar(id):
         <p><em>[Imagem: Página inicial da aplicação no navegador]</em></p>
         <p>![Acessar a Aplicação](link-da-imagem)</p>
     </li>
-</ol>
+</ul>
 
 <hr>
 
