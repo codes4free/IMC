@@ -242,7 +242,8 @@ def deletar(id):
         </p>
         <!-- Descrição da imagem -->
         <p><em>[Imagem: Captura de tela do ícone do Cloud Shell na console do Google Cloud]</em></p>
-        <img>https://ibb.co/BVDBR3f</li>img>
+        <img href=https://ibb.co/BVDBR3f></img>
+    </li>
     </li>
     <li>
         <strong>Iniciar o Cloud Shell Editor</strong>:
