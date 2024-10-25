@@ -220,83 +220,56 @@ def deletar(id):
     Esta seção descreve como o projeto foi desenvolvido utilizando o <strong>Google Cloud Shell</strong>, um ambiente de desenvolvimento integrado baseado em navegador.
 </p>
 
-<h3>Passo a Passo para Criar o Projeto</h3>
 
-<ul>
-    <li>
-        <strong>Acessar o Google Cloud Shell</strong>:
+<li>
+<strong>Criar o Projeto Flask</strong>:
 
-        <p>
-            Faça login na sua conta do Google Cloud Platform e acesse o Cloud Shell clicando no ícone do terminal na parte superior da console.
-        </p>
+<p>
+    No editor, crie uma nova pasta para o projeto e crie o arquivo <code>app.py</code> com o código da aplicação.
+</p>
+<a href="https://ibb.co/BVDBR3f"><img src="https://i.ibb.co/XZBtTLW/ggl-shell-editor.jpg" alt="ggl-shell-editor" border="0"></a>
 
-        <p><em>[Imagem: Captura de tela do ícone do Cloud Shell na console do Google Cloud]</em></p>
-        <p>![Acessar o Google Cloud Shell](link-da-imagem)</p>
-    </li>
+</li>
 
-    <li>
-        <strong>Iniciar o Cloud Shell Editor</strong>:
+<li>
+<strong>Instalar Dependências</strong>:
 
-        <p>
-            No terminal do Cloud Shell, clique no botão <strong>"Open Editor"</strong> para abrir o editor integrado.
-        </p>
+<p>
+    No terminal, instale o Flask usando o comando:
+</p>
 
-        <p><em>[Imagem: Botão "Open Editor" no terminal do Cloud Shell]</em></p>
-        <p>![Iniciar o Cloud Shell Editor](link-da-imagem)</p>
-    </li>
+<pre><code>pip install Flask</code></pre>
 
-    <li>
-        <strong>Criar o Projeto Flask</strong>:
 
-        <p>
-            No editor, crie uma nova pasta para o projeto e crie o arquivo <code>app.py</code> com o código da aplicação.
-        </p>
 
-        <p><em>[Imagem: Estrutura de arquivos no Cloud Shell Editor]</em></p>
-        <p>![Criar o Projeto Flask](link-da-imagem)</p>
-    </li>
+<li>
+<strong>Executar a Aplicação</strong>:
 
-    <li>
-        <strong>Instalar Dependências</strong>:
+<p>
+    Execute a aplicação com o comando:
+</p>
 
-        <p>
-            No terminal, instale o Flask usando o comando:
-        </p>
+<pre><code>python app.py</code></pre>
 
-        <pre><code>pip install Flask</code></pre>
+<p>
+    A aplicação será iniciada e estará acessível através de uma URL fornecida pelo Cloud Shell.
+</p>
 
-        <p><em>[Imagem: Instalação das dependências no terminal]</em></p>
-        <p>![Instalar Dependências](link-da-imagem)</p>
-    </li>
+<p><em>[Imagem: Terminal mostrando a aplicação em execução]</em></p>
+<p>![Executar a Aplicação](link-da-imagem)</p>
+</li>
 
-    <li>
-        <strong>Executar a Aplicação</strong>:
+<li>
+<strong>Acessar a Aplicação</strong>:
 
-        <p>
-            Execute a aplicação com o comando:
-        </p>
+<p>
+    Clique na URL fornecida para abrir a aplicação em uma nova aba do navegador e interaja com ela.
+</p>
 
-        <pre><code>python app.py</code></pre>
-
-        <p>
-            A aplicação será iniciada e estará acessível através de uma URL fornecida pelo Cloud Shell.
-        </p>
-
-        <p><em>[Imagem: Terminal mostrando a aplicação em execução]</em></p>
-        <p>![Executar a Aplicação](link-da-imagem)</p>
-    </li>
-
-    <li>
-        <strong>Acessar a Aplicação</strong>:
-
-        <p>
-            Clique na URL fornecida para abrir a aplicação em uma nova aba do navegador e interaja com ela.
-        </p>
-
-        <p><em>[Imagem: Página inicial da aplicação no navegador]</em></p>
-        <p>![Acessar a Aplicação](link-da-imagem)</p>
-    </li>
-</ul>
+<p><em>[Imagem: Página inicial da aplicação no navegador]</em></p>
+<p>![Acessar a Aplicação](link-da-imagem)</p>
+</li>
+</ol>
 
 <hr>
 
