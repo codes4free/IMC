@@ -214,6 +214,136 @@ def deletar(id):
 
 <hr>
 
+<h2>Desenvolvimento do Projeto no Google Cloud Shell</h2>
+
+<p>
+    Esta seção descreve como o projeto foi desenvolvido utilizando o <strong>Google Cloud Shell</strong>, um ambiente de desenvolvimento integrado baseado em navegador.
+</p>
+
+<h3>Passo a Passo para Criar o Projeto</h3>
+
+<ol>
+    <li>
+        <strong>Acessar o Google Cloud Shell</strong>:
+
+        <p>
+            Faça login na sua conta do Google Cloud Platform e acesse o Cloud Shell clicando no ícone do terminal na parte superior da console.
+        </p>
+
+        <p><em>[Imagem: Captura de tela do ícone do Cloud Shell na console do Google Cloud]</em></p>
+        <p>![Acessar o Google Cloud Shell](link-da-imagem)</p>
+    </li>
+
+    <li>
+        <strong>Iniciar o Cloud Shell Editor</strong>:
+
+        <p>
+            No terminal do Cloud Shell, clique no botão <strong>"Open Editor"</strong> para abrir o editor integrado.
+        </p>
+
+        <p><em>[Imagem: Botão "Open Editor" no terminal do Cloud Shell]</em></p>
+        <p>![Iniciar o Cloud Shell Editor](link-da-imagem)</p>
+    </li>
+
+    <li>
+        <strong>Criar o Projeto Flask</strong>:
+
+        <p>
+            No editor, crie uma nova pasta para o projeto e crie o arquivo <code>app.py</code> com o código da aplicação.
+        </p>
+
+        <p><em>[Imagem: Estrutura de arquivos no Cloud Shell Editor]</em></p>
+        <p>![Criar o Projeto Flask](link-da-imagem)</p>
+    </li>
+
+    <li>
+        <strong>Instalar Dependências</strong>:
+
+        <p>
+            No terminal, instale o Flask usando o comando:
+        </p>
+
+        <pre><code>pip install Flask</code></pre>
+
+        <p><em>[Imagem: Instalação das dependências no terminal]</em></p>
+        <p>![Instalar Dependências](link-da-imagem)</p>
+    </li>
+
+    <li>
+        <strong>Executar a Aplicação</strong>:
+
+        <p>
+            Execute a aplicação com o comando:
+        </p>
+
+        <pre><code>python app.py</code></pre>
+
+        <p>
+            A aplicação será iniciada e estará acessível através de uma URL fornecida pelo Cloud Shell.
+        </p>
+
+        <p><em>[Imagem: Terminal mostrando a aplicação em execução]</em></p>
+        <p>![Executar a Aplicação](link-da-imagem)</p>
+    </li>
+
+    <li>
+        <strong>Acessar a Aplicação</strong>:
+
+        <p>
+            Clique na URL fornecida para abrir a aplicação em uma nova aba do navegador e interaja com ela.
+        </p>
+
+        <p><em>[Imagem: Página inicial da aplicação no navegador]</em></p>
+        <p>![Acessar a Aplicação](link-da-imagem)</p>
+    </li>
+</ol>
+
+<hr>
+
+<h2>Feedback sobre o Programa</h2>
+
+<p>
+    O programa funciona conforme esperado, permitindo que os usuários:
+</p>
+
+<ul>
+    <li><strong>Criem</strong> novos registros com nome, peso e altura.</li>
+    <li><strong>Visualizem</strong> a lista de registros e seus respectivos IMCs.</li>
+    <li><strong>Atualizem</strong> registros existentes.</li>
+    <li><strong>Deletem</strong> registros indesejados.</li>
+</ul>
+
+<p>
+    A interface é simples e direta, facilitando a interação do usuário com a aplicação.
+</p>
+
+<hr>
+
+<h2>Possíveis Melhorias</h2>
+
+<ul>
+    <li><strong>Persistência de Dados</strong>: Implementar um banco de dados para armazenar os registros de forma persistente.</li>
+    <li><strong>Validação de Dados</strong>: Adicionar validações para garantir a integridade dos dados inseridos.</li>
+    <li><strong>Interface do Usuário</strong>: Melhorar o design das páginas HTML usando CSS e frameworks como Bootstrap.</li>
+    <li><strong>Mensagens de Feedback</strong>: Fornecer feedback ao usuário após cada operação (por exemplo, mensagens de sucesso ou erro).</li>
+</ul>
+
+<hr>
+
+<h2>Licença</h2>
+
+<p>
+    Este projeto está licenciado sob os termos da licença MIT.
+</p>
+
+<hr>
+
+</body>
+</html>
+
+
+
+
 <h2>Conclusão</h2>
 
 <p>
@@ -225,154 +355,7 @@ def deletar(id):
 <!-- ... As seções anteriores permanecem as mesmas ... -->
 
 
-<head>
-    <title>Documentação do Código</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-        }
-        h1, h2, h3, h4 {
-            color: #2F4F4F;
-        }
-        code {
-            background-color: #F5F5F5;
-            padding: 5px;
-            font-family: Consolas, monospace;
-        }
-        pre {
-            background-color: #F5F5F5;
-            padding: 15px;
-            overflow: auto;
-            font-family: Consolas, monospace;
-            font-size: 12pt;
-            white-space: pre-wrap;
-            line-height: 1.5;
-        }
-        hr {
-            border: none;
-            height: 1px;
-            background-color: #D3D3D3;
-            margin: 20px 0;
-        }
-        ul {
-            margin-left: 20px;
-        }
-    </style>
-</head>
-<body>
 
-<h1>Documentação do Código</h1>
-
-<!-- ... As seções anteriores permanecem as mesmas ... -->
-
-<hr>
-
-<h2>Desenvolvimento do Projeto no GitHub</h2>
-
-<p>
-    Esta seção descreve como o projeto foi desenvolvido e versionado utilizando o <strong>GitHub</strong>, uma plataforma de hospedagem de código-fonte e colaboração em projetos de software.
-</p>
-
-<h3>Passo a Passo para Criar o Projeto</h3>
-
-<ol>
-    <li>
-        <strong>Criar um Repositório no GitHub</strong>:
-        <p>
-            Acesse o GitHub e crie um novo repositório para o projeto, fornecendo um nome e uma descrição adequados.
-        </p>
-        <!-- Espaço para imagem -->
-        <p><em>[Imagem: Captura de tela da criação de um novo repositório no GitHub]</em></p>
-    </li>
-    <li>
-        <strong>Clonar o Repositório Localmente</strong>:
-        <p>
-            Utilize o comando <code>git clone</code> para clonar o repositório em sua máquina local.
-        </p>
-        <pre><code>git clone https://github.com/usuario/nome-do-repositorio.git</code></pre>
-        <!-- Espaço para imagem -->
-        <p><em>[Imagem: Terminal mostrando o comando git clone sendo executado]</em></p>
-    </li>
-    <li>
-        <strong>Criar o Ambiente de Desenvolvimento</strong>:
-        <p>
-            Navegue até o diretório do projeto e crie um ambiente virtual para gerenciar as dependências.
-        </p>
-        <pre><code>cd nome-do-repositorio
-python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate</code></pre>
-        <!-- Espaço para imagem -->
-        <p><em>[Imagem: Terminal mostrando a ativação do ambiente virtual]</em></p>
-    </li>
-    <li>
-        <strong>Instalar Dependências</strong>:
-        <p>
-            Instale o Flask utilizando o pip.
-        </p>
-        <pre><code>pip install Flask</code></pre>
-        <!-- Espaço para imagem -->
-        <p><em>[Imagem: Terminal mostrando a instalação do Flask]</em></p>
-    </li>
-    <li>
-        <strong>Adicionar o Código ao Repositório</strong>:
-        <p>
-            Crie o arquivo <code>app.py</code> e insira o código da aplicação Flask conforme descrito nas seções anteriores.
-        </p>
-        <!-- Espaço para imagem -->
-        <p><em>[Imagem: Editor de código mostrando o arquivo app.py com o código]</em></p>
-    </li>
-    <li>
-        <strong>Criar a Estrutura de Templates</strong>:
-        <p>
-            Crie uma pasta chamada <code>templates</code> e adicione os arquivos <code>index.html</code>, <code>criar.html</code> e <code>atualizar.html</code>.
-        </p>
-        <!-- Espaço para imagem -->
-        <p><em>[Imagem: Estrutura de pastas mostrando a pasta templates e os arquivos HTML]</em></p>
-    </li>
-    <li>
-        <strong>Testar a Aplicação Localmente</strong>:
-        <p>
-            Execute a aplicação para verificar se tudo está funcionando corretamente.
-        </p>
-        <pre><code>python app.py</code></pre>
-        <!-- Espaço para imagem -->
-        <p><em>[Imagem: Terminal mostrando a aplicação em execução]</em></p>
-    </li>
-    <li>
-        <strong>Fazer Commit e Push das Alterações</strong>:
-        <p>
-            Adicione os arquivos ao controle de versão, faça commit e envie as alterações para o GitHub.
-        </p>
-        <pre><code>git add .
-git commit -m "Inicialização do projeto"
-git push origin main</code></pre>
-        <!-- Espaço para imagem -->
-        <p><em>[Imagem: Terminal mostrando os comandos git add, git commit e git push]</em></p>
-    </li>
-    <li>
-        <strong>Configurar o GitHub Pages (Opcional)</strong>:
-        <p>
-            Se desejar hospedar a aplicação estática no GitHub Pages, configure as opções no repositório.
-        </p>
-        <!-- Espaço para imagem -->
-        <p><em>[Imagem: Configurações do GitHub Pages no repositório]</em></p>
-    </li>
-</ol>
-
-<h3>Vantagens de Usar o GitHub</h3>
-
-<ul>
-    <li><strong>Controle de Versão</strong>: Histórico completo das alterações feitas no projeto.</li>
-    <li><strong>Colaboração</strong>: Facilita o trabalho em equipe através de pull requests e issues.</li>
-    <li><strong>Hospedagem Centralizada</strong>: O código está acessível de qualquer lugar.</li>
-</ul>
-
-<p>
-    Utilizando o GitHub, o projeto ganha em organização, rastreabilidade e colaboração, permitindo que desenvolvedores trabalhem juntos de forma eficiente.
-</p>
-
-<hr>
 
 
 
