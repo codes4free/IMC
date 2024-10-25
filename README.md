@@ -255,8 +255,7 @@ def deletar(id):
     A aplicação será iniciada e estará acessível através de uma URL fornecida pelo Cloud Shell.
 </p>
 
-<p><em>[Imagem: Terminal mostrando a aplicação em execução]</em></p>
-<p>![Executar a Aplicação](link-da-imagem)</p>
+<a href="https://ibb.co/rMphxw1"><img src="https://i.ibb.co/DkMF9RS/ggl-shell-editor-app-call.jpg" alt="ggl-shell-editor-app-call" border="0"></a>
 </li>
 
 <li>
@@ -266,8 +265,7 @@ def deletar(id):
     Clique na URL fornecida para abrir a aplicação em uma nova aba do navegador e interaja com ela.
 </p>
 
-<p><em>[Imagem: Página inicial da aplicação no navegador]</em></p>
-<p>![Acessar a Aplicação](link-da-imagem)</p>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/wcGCpzV/ggl-shell-editor-app-web.jpg" alt="ggl-shell-editor-app-web" border="0"></a>
 </li>
 </ol>
 
