@@ -299,13 +299,8 @@ def deletar(id):
     <li><strong>Mensagens de Feedback</strong>: Fornecer feedback ao usuário após cada operação (por exemplo, mensagens de sucesso ou erro).</li>
 </ul>
 
-<hr>
 
-<h2>Licença</h2>
 
-<p>
-    Este projeto está licenciado sob os termos da licença MIT.
-</p>
 
 <hr>
 
